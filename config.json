@@ -1,0 +1,51 @@
+{
+    "camera": {
+        "device_id": 0,
+        "resolution": [
+            640,
+            480
+        ],
+        "fps": 30
+    },
+    "speech": {
+        "rate": 150,
+        "volume": 0.9,
+        "language": "en-US"
+    },
+    "audio": {
+        "sample_rate": 44100,
+        "volume": 0.5,
+        "duration": 0.5
+    },
+    "navigation": {
+        "map_resolution": 0.1,
+        "map_size": 100,
+        "obstacle_threshold": 0.5
+    },
+    "emergency": {
+        "cooldown": 60,
+        "contacts": [],
+        "monitoring_duration": 30
+    },
+    "models": {
+        "object_detector": {
+            "confidence_threshold": 0.5,
+            "nms_threshold": 0.4
+        },
+        "scene_analyzer": {
+            "environment_types": [
+                "indoor",
+                "outdoor",
+                "mixed"
+            ],
+            "scene_categories": [
+                "room",
+                "corridor",
+                "street",
+                "park",
+                "building",
+                "unknown"
+            ]
+        }
+    }
+}
